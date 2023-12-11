@@ -9,4 +9,4 @@ The greatest challenge in this project was generating the alert if the password 
 
 ## Credits
 
- I primarily worked on this alone, however I worked with Travis Umbel, Keely York, Megan Schneider and Cameron Kirk doing the pseudo code. I relied heavily on Google for information.
+ I primarily worked on this alone, however I worked with Travis Umbel, Keely York, Megan Schneider and Cameron Kirk doing the pseudo code. I relied heavily on Google for information. Starter Code provided by Xandromas.
