@@ -9,6 +9,9 @@ function generatePassword() {
   let allChars = '';
   let password = '';
 
+  console.log(lowercaseChars);
+ 
+
   const length = prompt("Enter the length of the password (between 8 and 128)");
 
   if (length < 8 || length > 128 || isNaN(length)) {
@@ -49,6 +52,7 @@ function generatePassword() {
 
 
 
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -62,11 +66,10 @@ function writePassword() {
 }
 
 // Call the function to generate the password based on user input
-const newPassword = generatePassword();
+
 
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 // Display the generated password
-alert("Your generated password is: " + newPassword);
